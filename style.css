@@ -87,21 +87,11 @@ section{
     gap: 15px;
 }
 
-.bbor{
-    width: 590px;
-    height: 200px;
-    background-color: gray;
-    border-radius: 10px;
-}
 .image{
     display: flex;
     gap: 15px;
 }
-.bbor1{
-    width: 290px;
-    height: 200px;
-    border-radius: 10px;
-}
+
 .bbor2{
     width: 240px;
     height: 415px;
@@ -109,7 +99,6 @@ section{
 }
 
 @media screen and (max-width:990px) {
-   
     header img{
         width: 30%;
         padding: 15px;
@@ -117,37 +106,19 @@ section{
     .item{
         width: 15%;
     }
-    section{
-        width: 100%;
-        display: flex;
-        gap: 15px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
      .container{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 50px;
      }
      .contaier{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;}
-        
+       }
         .border{
             border-radius: 15px;
             width: 300px;
             height: 200px;
         }
-        
         .borer{
             border-radius: 15px;
             width: 300px;
@@ -156,45 +127,11 @@ section{
         .bbor2{
             width: 300px;
             height: 415px;
-            border-radius: 15px;}
+            border-radius: 15px;
+        }
         .image{
             display: flex;
             flex-direction: column;
             gap: 15px;
         } 
-     /*}
-    
-    }
-    
-    .border{
-        border-radius: 15px;
-        width: 200px;
-        height: 200px;
-    }
-    
-    .borer{
-        border-radius: 15px;
-        width: 300px;
-        height: 200px;
-    } 
-    .images{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .bbor{
-        width: 700px;
-        height: 200px;
-        background-color: gray;
-        border-radius: 15px;
-    }
-    
-    .bbor1{
-        width: 350px;
-        height: 200px;
-        border-radius: 15px;
-    }
-    
-    } */
 }
