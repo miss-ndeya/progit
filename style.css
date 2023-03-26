@@ -15,7 +15,7 @@ header{
 header img{
     width: 10%;
     border-radius: 15%;
-    padding: 10px;
+    padding: 20px;
 
 }
 .size{
@@ -60,7 +60,8 @@ section{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-top: 50px; 
+    margin-top: 50px;
+
 }
 .contaier{
     display: flex;
@@ -70,13 +71,13 @@ section{
     gap: 15px;
 }
 
-.border{
+.border, .boder{
     border-radius: 10px;
     width: 240px;
     height: 200px;
 }
 
-.borer{
+.borer, .boer{
     border-radius: 10px;
     width: 500px;
     height: 200px;
@@ -98,7 +99,7 @@ section{
     border-radius: 10px;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:1500px) {
     header img{
         width: 30%;
         padding: 15px;
@@ -108,30 +109,37 @@ section{
     }
      .container{
         display: flex;
-        flex-direction: column;
+        gap: 15px;
+        
      }
      .contaier{
         display: flex;
-        flex-direction: column;
+        gap: 5px;
+        margin: 15px;
        }
         .border{
-            border-radius: 15px;
-            width: 300px;
+            width: 30%;
+            height: 200px;
+        }
+        .boder{
+            width: 40%;
             height: 200px;
         }
         .borer{
-            border-radius: 15px;
-            width: 300px;
+            width: 60%;
+            height: 200px;
+        }
+        .boer{
+            width: 90%;
             height: 200px;
         }
         .bbor2{
-            width: 300px;
+            width: 100%;
             height: 415px;
-            border-radius: 15px;
         }
         .image{
             display: flex;
-            flex-direction: column;
+            
             gap: 15px;
         } 
 }
