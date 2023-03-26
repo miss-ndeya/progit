@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+header img {
+  width: 10%;
+  border-radius: 15%;
+  padding: 10px;
+}
+.size {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.gra {
+  color: gray;
+}
+nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.item {
+  background-color: rgb(231, 227, 227);
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  /**-----------------------------------------------------
+     *   C'était mieux d'utiliser max content comme width   !
+     *   ou en pixel pour conserver la largeur au lieu de   !
+     *   width: 5%;                                         !
+     *------------------------------------------------------
+    */
+  width: max-content;
+}
+.siz {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/**
+*/
+/*.h300{
+    height: 300px;
+}
+.h615{
+    height: 615px;
+}*/
+section {
+  padding: 30px;
+  width: 70vw;
+  margin: 0 auto;
+}
+.d-grid {
+  display: grid;
+  gap: 15px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.fr11 {
+  grid-template-columns: 1fr 1fr;
+}
+.fr12 {
+  grid-template-columns: 1fr 2fr;
+}
+.fr21 {
+  grid-template-columns: 2fr 1fr;
+}
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0.5em;
+  padding: 50% 0;
+}
+.p25 {
+  padding: 25% 0;
+}
+#zone-1 {
+  background-image: url("./images/images\ \(4\).jfif");
+}
+#zone-2 {
+  background-image: url("./images/images\ \(10\).jfif");
+}
+#zone-3 {
+  background-image: url("./images/images\ \(6\).jfif");
+}
+#zone-4 {
+  background-image: url("./images/images\ \(9\).jfif");
+}
+#zone-5 {
+  background-image: url("./images/images\ \(8\).jfif");
+}
+#zone-6 {
+  background-image: url("./images/images\ \(7\).jfif");
+  height: 15px;
+  padding: 100% 0;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 95%;
+    padding: 15px 5px;
+  }
+  .d-grid{
+    gap: 5px;
+  }
+
+  /*.h300 {
+    height: 150px;
+  }
+  .h615 {
+    height: 315px;
+  }*/
+}
